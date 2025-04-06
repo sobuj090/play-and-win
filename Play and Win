@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Play and Win - খেলুন এবং মোবাইলেই জিতুন!" />
+  <meta name="keywords" content="বাংলা ক্যাসিনো, মোবাইল গেম, স্লট, রুলেট, অনলাইন বোনাস" />
+  <meta name="author" content="Play and Win" />
+  <title>Play and Win | খেলুন এবং জিতুন</titlcontent://com.android.externalstorage.documents/tree/primary%3Amy%20casino::primary:my casino/Play and wine>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Noto Sans Bengali', sans-serif;
+      background: #000;
+      color: #fff;
+    }
+
+    header {
+      background: linear-gradient(to right, #e60000, #ff9900);
+      text-align: center;
+      padding: 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+
+    nav {
+      background: #111;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: url('casino-mobile-bg.jpg') no-repeat center/cover;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .hero h2 {
+      background-color: rgba(0, 0, 0, 0.5);
+      display: inline-block;
+      padding: 10px;
+      border-radius: 10px;
+      font-size: 1.5rem;
+    }
+
+    .cta {
+      display: inline-block;
+      background: #ffcc00;
+      color: #000;
+      padding: 12px 25px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+
+    .games, .form, .payment {
+      padding: 30px 20px;
+      background: #111;
+      margin-top: 20px;
+    }
+
+    .games h3, .form h3, .payment h3 {
+      color: #ffcc00;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    .game-item {
+      background: #222;
+      padding: 15px;
+      border-radius: 10px;
+      margin: 10px 0;
+      text-align: center;
+    }
+
+    input, select, button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+      border: none;
+      font-size: 1rem;
+    }
+
+    button {
+      background: #ffcc00;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.8rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Play and Win</h1>
+    <p>বাংলাদেশের সেরা মোবাইল ক্যাসিনো!</p>
+  </header>
+
+  <nav>
+    <a href="#">হোম</a>
+    <a href="#form">রেজিস্টার</a>
+    <a href="#games">গেমস</a>
+    <a href="#payment">পেমেন্ট</a>
+  </nav>
+
+  <section class="hero">
+    <h2>রেজিস্টার করলেই ৳১০০ বোনাস!</h2>
+    <br />
+    <a href="#form" class="cta">এখনই শুরু করুন</a>
+  </section>
+
+  <section class="games" id="games">
+    <h3>গেমের তালিকা</h3>
+    <div class="game-item">স্লট মেশিন</div>
+    <div class="game-item">রুলেট</div>
+    <div class="game-item">পোকার</div>
+    <div class="game-item">লাইভ ক্যাসিনো</div>
+    <div class="game-item">স্পোর্টস বেটিং</div>
+  </section>
+
+  <section class="form" id="form">
+    <h3>রেজিস্ট্রেশন ফর্ম</h3>
+    <input type="text" placeholder="আপনার নাম" />
+    <input type="tel" placeholder="মোবাইল নাম্বার" />
+    <input type="email" placeholder="ইমেইল" />
+    <input type="password" placeholder="পাসওয়ার্ড" />
+    <button>রেজিস্টার করুন</button>
+  </section>
+
+  <section class="payment" id="payment">
+    <h3>পেমেন্ট অপশন</h3>
+    <select>
+      <option>নির্বাচন করুন</option>
+      <option>বিকাশ</option>
+      <option>নগদ</option>
+      <option>রকেট</option>
+    </select>
+    <input type="text" placeholder="আপনার একাউন্ট নাম্বার" />
+    <button>টাকা যোগ করুন</button>
+  </section>
+
+  <footer>
+    &copy; ২০২৫ Play and Win | সকল অধিকার সংরক্ষিত
+  </footer>
+</body>
+</html>
+
+
